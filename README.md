@@ -7,7 +7,7 @@ Finally, besides to the merely descriptive content of some of those exercises, t
 
 ## Setup description ##
 
-All the exercises were implemented on a machine with the X86 architecture, running a virtual machine with Ubuntu 18.04.1 on top of it. The code was compiled using the GCC compiler version 7.4.0.
+All the exercises were implemented on a machine with the X86 architecture, running a virtual machine with GNU/Ubuntu 18.04.1 LTS (Bionic Beaver) on top of it. The code was compiled using the GCC compiler version 7.4.0.
 
 ## Table of contents ##
 
@@ -20,14 +20,14 @@ The development of each exercise is encapsulated on different directories to mai
 - __Exercise V__ [[Implementation matrix multiplication with systolic arrays](https://github.com/jracevedob/AIDTechTask/tree/master/ExerciseV)]
 
 
-## NVIDIA support
-In each of the network READMEs, we indicate the level of support that will be provided. The range is from ongoing updates and improvements to a point-in-time release for thought leadership.
+## Installation and support
+In each repository, the reader will find a README file in which is described where the descriptions are located or how to execute the software implementations. In order to clone this respository with git, the reader just have to select a directory where to clone the code. For instance:
 
-## Feedback / Contributions
-We're posting these examples on GitHub to better support the community, facilitate feedback, as well as collect and implement contributions using GitHub Issues and pull requests. We welcome all contributions!
+'''
+$ cd $TOP_DIR
+$ git clone https://github.com/jracevedob/AIDTechTaskAIDTechTask
+'''
+
 
 ## Known issues
-In each of the network READMEs, we indicate any known issues and encourage the community to provide feedback.
-
-
-
+All the software implementation were vastly tested and until its release not errors were detected.
