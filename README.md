@@ -21,13 +21,14 @@ The development of each exercise is encapsulated on different directories to mai
 
 
 ## Installation and support
-In each repository, the reader will find a README file in which is described where the descriptions are located or how to execute the software implementations. In order to clone this respository with git, the reader just have to select a directory where to clone the code. For instance:
+In each repository, the reader will find a README file in which is described where the descriptions are located or how to execute the software implementations. In order to clone this respository with git, the reader just have to select a directory where to clone the code, i.e, $TOP_DIR. For instance:
 
-'''
+```bash
 $ cd $TOP_DIR
-$ git clone https://github.com/jracevedob/AIDTechTaskAIDTechTask
-'''
+$ git clone https://github.com/jracevedob/AIDTechTask AIDTechTask
+```
 
+Since this is private repository, the access to it will be granted only to members of the staff of AID GmbH.
 
 ## Known issues
 All the software implementation were vastly tested and until its release not errors were detected.
