@@ -11,7 +11,7 @@ All the exercises were implemented on a machine with the X86 architecture, runni
 
 ## Table of contents ##
 
-The development of each exercise is encapsulated on different directories to maintain the development organized and to grant an easy understanding for the reader.
+The development of each exercise is encapsulated on different directories to maintain the development organized and to grant an easy understanding about the solutions for the reader.
 
 - __Exercise I__ [[Hardware acceleration engines](https://github.com/jracevedob/AIDTechTask/tree/master/ExerciseI)]
 - __Exercise II__ [[Block diagram desgin](https://github.com/jracevedob/AIDTechTask/tree/master/ExerciseII)]
@@ -21,7 +21,7 @@ The development of each exercise is encapsulated on different directories to mai
 
 
 ## Installation and support
-In each repository, the reader will find a README file in which is described where the descriptions are located or how to execute the software implementations. In order to clone this respository with git, the reader just have to select a directory where to clone the code, i.e, $TOP_DIR. For instance:
+In each repository, the reader will find a README file with descriptions about the internal files and instructions to execute the software implementations. In order to clone this respository with git, the reader just have to select a directory where to clone the code to, i.e, $TOP_DIR. For instance:
 
 ```bash
 $ cd $TOP_DIR
@@ -31,4 +31,4 @@ $ git clone https://github.com/jracevedob/AIDTechTask AIDTechTask
 Since this is private repository, the access to it will be granted only to members of the staff of AID GmbH.
 
 ## Known issues
-All the software implementation were vastly tested and until its release not errors were detected.
+All the software implementations were vastly tested and until its release, errors were not detected.
