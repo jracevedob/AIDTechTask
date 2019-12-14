@@ -14,7 +14,7 @@ All the exercises were implemented on a machine with the X86 architecture, runni
 The development of each exercise is encapsulated on different directories to maintain the development organized and to grant an easy understanding about the solutions for the reader.
 
 - __Exercise I__ [[Hardware acceleration engines](https://github.com/jracevedob/AIDTechTask/tree/master/ExerciseI)]
-- __Exercise II__ [[Block diagram desgin](https://github.com/jracevedob/AIDTechTask/tree/master/ExerciseII)]
+- __Exercise II__ [[Block diagram design](https://github.com/jracevedob/AIDTechTask/tree/master/ExerciseII)]
 - __Exercise III__ [[GPU multicore multithreading](https://github.com/jracevedob/AIDTechTask/tree/master/ExerciseIII)]
 - __Exercise IV__ [[Implementation matrix multiplication with SIMD instructions](https://github.com/jracevedob/AIDTechTask/tree/master/ExerciseIV)]
 - __Exercise V__ [[Implementation matrix multiplication with systolic arrays](https://github.com/jracevedob/AIDTechTask/tree/master/ExerciseV)]
