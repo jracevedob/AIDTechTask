@@ -50,4 +50,4 @@ When the programm is executed in the mentioned computing platform, the following
 | Nested loop with hiperthreading          | 0,053835 |
 | Nested loop with hiperthreading and SIMD | 0,045866 |
 
-The matrix sizes used for this implementation were 1024*2048 and 2048*512. Then, the resulting matrix has a dimension of 1024*512.
+The matrix sizes used for this implementation were 1024x2048 and 2048x512. Then, the resulting matrix has a dimension of 1024x512.
