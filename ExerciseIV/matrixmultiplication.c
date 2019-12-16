@@ -50,6 +50,9 @@ void mm_multithreading_SIMD(float *matrixA, float *matrixB, float *result) {
 
 int main(int argc, char* argv[]) {
 
+    /*Time variable*/
+    double dtime;
+
     /* Input matrix definition*/
     float *matrixA = _mm_malloc(N*M * sizeof *matrixA, 64);
     float *matrixB = _mm_malloc(M*K * sizeof *matrixB, 64);
@@ -67,8 +70,7 @@ int main(int argc, char* argv[]) {
     memset(result_nmult, 0, N*K * sizeof *result_nmult);
     memset(result_mult , 0, N*K * sizeof *result_mult);
     memset(result_mult_simd, 0, N*K * sizeof *result_mult_simd);
-    double dtime;
-
+    
     /* Processing and benchmarking*/
     
     dtime = -omp_get_wtime();
