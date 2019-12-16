@@ -60,8 +60,8 @@ int main(int argc, char* argv[]) {
     float *result_mult_simd = _mm_malloc(N*K * sizeof *result_mult_simd, 64);
 
     /* Matrix initialization*/
-    for(int i=0; i<N*M; i++) matrixA[i] = 1.0*i;
-    for(int i=0; i<M*K; i++) matrixB[i] = 1.0*i;
+    for(int i=0; i<N*M; i++) matrixA[i] = i % 10;
+    for(int i=0; i<M*K; i++) matrixB[i] = i % 10;
     //memset(matrixA, 0, N*M * sizeof *matrixA);
     //memset(matrixB, 0, M*K * sizeof *matrixB);
     memset(result_nmult, 0, N*K * sizeof *result_nmult);
