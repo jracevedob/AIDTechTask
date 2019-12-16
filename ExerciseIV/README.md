@@ -51,3 +51,14 @@ When the programm is executed in the mentioned computing platform, the following
 | Nested loop with hiperthreading and SIMD | 0,045866 |
 
 The matrix sizes used for this implementation were 1024x2048 and 2048x512. Then, the resulting matrix has a dimension of 1024x512.
+
+Questions:
+- Absolute performance calculation: In order to calculate the absolute performance the number of total operations must be considered. The total number of operations for a matrix multiplication of different dimensions is given by N*K(M(M-1)), where the matrix A has a dimension NxM, and the matrix B has a dimension of MxK. Then the absolute performance is the relationship between the number of operation and the exection time of the multiplications.
+
+| Acceleration Metodology | Absolute  performance in FLOPS |
+| ----------------------- | -------------- |
+| Nested loop without hiperthreading       | 9e+12 |
+| Nested loop with hiperthreading          | 4e+13 |
+| Nested loop with hiperthreading and SIMD | 4.8+13|
+
+- Performance limitation factors: 
