@@ -61,4 +61,4 @@ Questions:
 | Nested loop with hiperthreading          | 4e+13 |
 | Nested loop with hiperthreading and SIMD | 4.8+13|
 
-- Performance limitation factors: 
+- Performance limitation factors: the main factors to maintain high performance in matrix multiplications are low number of data movements and high number of processing elements. For this small example, the matrices are small and can fetch perfectly in the internal RAM memory and data can be transfered to the CPU swiftly. For higher dimmensions, some acceleration hardware such as GPU or FPGA are required to fetch the data and to perform the multiple and accumulation operation. On the other hand, in this implementation the threads where enable using OpenMP, which allowed us to benefit from the 8 processing cores of this CPU. 
