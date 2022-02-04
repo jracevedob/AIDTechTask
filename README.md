@@ -1,4 +1,4 @@
-# AIDTechTask #
+# Autonomous Intelligent Driving GmbH - TechTask #
 
 This repository contains the solution to five exercises used during the recruiting process at 
 AID GmbH for the position of Compute Platform Engineer. Therefore, you find here descriptions and explanations about the current hardware trends employed as acceleration engines for autonomous driving at the level 4/5. Additionally, a block diagram design is provided to integrate the software stack for a self-driving car into its central compute platform.
